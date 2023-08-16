@@ -55,6 +55,7 @@
         <!--Navigation Controller-->
         <scene sceneID="0cG-3V-t3f">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hrx-Nz-x0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="rFI-5y-V7B" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="mostRecent" id="bAX-E2-303"/>
                     <toolbarItems/>
@@ -67,13 +68,13 @@
                         <segue destination="xGL-PF-Gcc" kind="relationship" relationship="rootViewController" id="m4I-0a-Ti1"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hrx-Nz-x0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1321.3740458015266" y="-11.267605633802818"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ve1-hp-c8r">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y5a-4A-Iqh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="UMP-x2-DM9" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1ZV-b3-Hq2">
@@ -85,7 +86,6 @@
                         <segue destination="rFI-5y-V7B" kind="relationship" relationship="viewControllers" id="6kG-CF-3Qu"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Y5a-4A-Iqh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="394.6564885496183" y="-11.267605633802818"/>
         </scene>
